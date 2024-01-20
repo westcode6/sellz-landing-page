@@ -9,7 +9,7 @@
     <section class="w-full bg-[#04082f] h-full lg:h-[75vh] px-6 sm:px-10 lg:px-32 py-10 lg:py-8  flex flex-col lg:flex-row items-center md:gap-20">
         <div class="w-full lg:w-1/2">
             <div class="w-full md:max-w-[576px] text-center lg:text-left lg:max-w-[656px]">
-                <h1 class="animate__animated animate__backInLeft text-4xl md:text-7xl text-white font-semibold">Create Build, and Sell online Courses</h1>
+                <h1 class="animate__animated animate__backInLeft text-3xl md:text-7xl text-white font-semibold">Create Build, and Sell online Courses</h1>
             <p class="w-full sm:w-5/6 mx-auto animate__animated animate__backInLeft  lg:mx-0 sm:text-center lg:text-left py-6 md:text-xl text-gray-300">
                 Turn your expertise into an online course and connect with millions of learners around the
                 world.
