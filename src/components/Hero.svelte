@@ -25,7 +25,7 @@
     
         <div class="w-full lg:w-1/2 my-4 sm:mt-0 animate__animated animate__backInUp ">
 
-            <div class="w-full h-[350px] sm:h-[600px]">
+            <div class="w-full h-[310px] sm:h-[600px]">
     <img src={heroBanner} class="w-full h-full rounded-xl object-cover" alt="">
 
             </div>
