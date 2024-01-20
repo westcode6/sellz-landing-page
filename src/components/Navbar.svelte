@@ -52,7 +52,7 @@
 		</ul>
 		<div class="w-full flex items-center justify-between md:justify-end">
 			<a href="/">
-				<img src="./src/lib/assets/sellz-logo.png" class="h-6 object-contain" alt="" />
+				<img src="$lib/assets/sellz-logo.png" class="h-6 object-contain" alt="" />
 			</a>
 
 			<button on:click={showNav} class="block md:hidden">
@@ -84,7 +84,7 @@
 <div id="stickyNav" class="absolute z-10 animate__animated animate__bounceInDown hidden top-0 bg-[#04082f] w-full h-full">
 	<div class="w-full bg-[#04082] px-8 py-6 flex items-center justify-between">
         <a href="/">
-            <img src="./src/lib/assets/sellz-logo.png" class="h-6 object-contain" alt="" />
+            <img src="$lib/assets/sellz-logo.png" class="h-6 object-contain" alt="" />
         </a>
 		<button
 			on:click={hideNav}
