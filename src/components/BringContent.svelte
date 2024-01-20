@@ -1,4 +1,9 @@
-
+<script>
+    import mentorship from "$lib/assets/mentorship.jpg"
+    import funnel from "$lib/assets/funnel.jpg"
+    import creator from "$lib/assets/creator.png"
+    import programmer from "$lib/assets/programmer.jpg"
+</script>
 
 
 <section class="py-10 lg:py-24 px-8">
@@ -8,28 +13,28 @@
     <div class="w-full md:max-w-7xl mx-auto mt-10 md:mt-20 flex flex-wrap justify-center lg:justify-between py-10 gap-10">
        <div class="w-52 bg-white rounded-xl animate__animated animate__tada shadow-inner flex flex-col items-center justify-center gap-6 px-6 py-3">
         <div class="w-28 h-28 rounded-full mx-auto bg-gray-400">
-            <img src="./src/lib/assets/funnel.jpg" class="object-cover object-center rounded-full shadow-xl" alt="">
+            <img src={funnel} class="object-cover object-center rounded-full shadow-xl" alt="">
         </div>
         <h3 class="text-lg font-semibold">Funnel Builder</h3>
        </div>
    
        <div class="w-52 bg-white rounded-xl animate__animated animate__tada shadow-inner flex flex-col items-center justify-center gap-6 px-4 py-3">
         <div class="w-28 h-28 rounded-full mx-auto bg-gray-400 overflow-hidden">
-            <img src="./src/lib/assets/mentorship.jpg" class="w-full h-full object-cover object-center rounded-full shadow-xl" alt="">
+            <img src={mentorship} class="w-full h-full object-cover object-center rounded-full shadow-xl" alt="">
         </div>
         <h3 class="text-lg font-semibold">Mentorship Site</h3>
        </div>
    
        <div class="w-52 bg-white rounded-xl animate__animated animate__tada shadow-inner flex flex-col items-center justify-center gap-6 px-6 py-3">
-        <div class="w-28 h-28 rounded-full mx-auto bg-gray-400">
-            <img src="./src/lib/assets/funnel.jpg" class="object-cover object-center rounded-full shadow-xl" alt="">
+        <div class="w-28 h-28 rounded-full mx-auto bg-gray-400 overflow-hidden">
+            <img src={creator} class="w-full h-full object-cover object-center rounded-full shadow-xl" alt="">
         </div>
         <h3 class="text-lg font-semibold">Funnel Builder</h3>
        </div>
    
        <div class="w-52 bg-white rounded-xl animate__animated animate__tada shadow-inner flex flex-col items-center justify-center gap-6 px-6 py-3">
         <div class="w-28 h-28 rounded-full mx-auto bg-gray-400 overflow-hidden">
-            <img src="./src/lib/assets/creator.png" class="w-full h-full object-cover object-center rounded-full shadow-xl" alt="">
+            <img src={programmer} class="w-full h-full object-cover object-center rounded-full shadow-xl" alt="">
         </div>
            <h3 class="text-lg font-semibold">Course Creators</h3>
        </div>

@@ -1,6 +1,10 @@
+<script>
+    import smiles from "$lib/assets/laugh.png"
+</script>
+
 <section class="px-8 sm:px-10 lg:px-32 py-4 lg:py-8 flex flex-col items-center md:flex-row shadow-xl">
 	<div class="w-full md:w-1/2 lg:p-12">
-		<img src="./src/lib/assets/laugh.png" class="w-full h-full object-cover object-center" alt="" />
+		<img src={smiles} class="w-full h-full object-cover object-center" alt="" />
 	</div>
 
 	<div class="w-full md:w-1/2 lg:px-24 mt-6 px-4">

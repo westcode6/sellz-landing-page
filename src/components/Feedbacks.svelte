@@ -1,4 +1,8 @@
-
+<script>
+    import clement from  "$lib/assets/clement.jpg"
+    import programmer from  "$lib/assets/programmer.jpg"
+    import boss from  "$lib/assets/boss.png"
+</script>
 <main class="bg-wave">
 
 <section class="bg-[#04082f] bg-opacity-95 mt-10 md:mt-20 px-8 sm:px-10 lg:px-40 py-4 lg:py-20">
@@ -42,7 +46,7 @@
                 </div>
                 <div class="flex items-center gap-4 shadow-xl rounded-xl py-4">
                     <img
-                        src="src/lib/assets/creator.png"
+                        src={clement}
                         class="w-10 h-10 rounded-full object-cover object-center"
                         alt=""
                     />
@@ -66,7 +70,7 @@
     
                 <div class="flex items-center gap-4 shadow-xl rounded-xl py-4">
                     <img
-                        src="src/lib/assets/creator.png"
+                        src={boss}
                         class="w-10 h-10 rounded-full object-cover object-center"
                         alt=""
                     />
@@ -90,7 +94,7 @@
     
                 <div class="flex items-center gap-4 shadow-xl rounded-xl py-4">
                     <img
-                        src="src/lib/assets/creator.png"
+                        src={programmer}
                         class="w-10 h-10 rounded-full object-cover object-center"
                         alt=""
                     />

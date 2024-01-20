@@ -65,7 +65,7 @@ import logo from "$lib/assets/sellz-logo.png"
 					viewBox="0 0 24 24"
 					stroke-width="1.5"
 					stroke="currentColor"
-					class="w-8 h-8 text-white"
+					class="w-7 h-7 text-white"
 				>
 					<path
 						stroke-linecap="round"

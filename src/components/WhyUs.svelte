@@ -1,5 +1,6 @@
 <script>
     import icon from "$lib/assets/01.svg"
+    import dashboard from "$lib/assets/dash.png"
 </script>
 
 <section class="mt-10 md:mt-20 px-8 sm:px-10 lg:px-32 py-4 lg:py-8">
@@ -67,7 +68,7 @@
 
 		<div class="w-full mt-20 relative">
 			<img
-				src="src/lib/assets/dash.png"
+				src={dashboard}
 				class="rounded-xl shadow-lg right-0 w-full object-cover object-center"
 				alt="dashboard view"
 			/>

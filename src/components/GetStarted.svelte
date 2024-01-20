@@ -1,5 +1,5 @@
 <script>
-    let dashboard = "$lib/assets/dash2.png"
+    import dashboard from "$lib/assets/dash2.png"
 </script>
 
 <main class="bg-wave">
