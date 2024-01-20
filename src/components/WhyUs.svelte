@@ -1,3 +1,7 @@
+<script>
+    import icon from "$lib/assets/01.svg"
+</script>
+
 <section class="mt-10 md:mt-20 px-8 sm:px-10 lg:px-32 py-4 lg:py-8">
 	<div class="w-full sm:max-w-lg mx-auto text-center">
 		<h2 class="text-2xl md:text-4xl font-semibold text-[#04082f]">
@@ -10,7 +14,7 @@
 		<aside class="w-full lg:max-w-xl flex flex-col items-start">
 			<div class="w-full flex items-center shadow-xl hover:shadow-sm rounded-xl mt-4 lg:px-12">
 				<div class="w-20 h-20 flex items-center justify-center">
-					<img src="src/lib/assets/01.svg" alt="" />
+					<img src={icon} alt="" />
 				</div>
 				<div class="p-4">
 					<h5 class="text-lg font-semibold">Manage everything in One Place</h5>
@@ -23,7 +27,7 @@
 
 			<div class="w-full flex items-center shadow-xl hover:shadow-sm rounded-xl mt-4 lg:px-12">
 				<div class="w-20 h-20 flex items-center justify-center">
-					<img src="src/lib/assets/01.svg" class="" alt="" />
+					<img src={icon} class="" alt="" />
 				</div>
 				<div class="p-4">
 					<h5 class="text-lg font-semibold">Zero Experience Needed</h5>
@@ -36,7 +40,7 @@
 
 			<div class="w-full flex items-center shadow-xl hover:shadow-sm rounded-xl mt-4 lg:px-12">
 				<div class="w-20 h-20 flex items-center justify-center">
-					<img src="src/lib/assets/01.svg" alt="" />
+					<img src={icon} alt="" />
 				</div>
 				<div class="p-4">
 					<h5 class="text-lg font-semibold">Get Paid From Anywhere</h5>
@@ -48,7 +52,7 @@
 
 			<div class="w-full flex items-center mt-4 shadow-xl hover:shadow-sm rounded-xl lg:px-12">
 				<div class="w-20 h-20 flex items-center justify-center">
-					<img src="src/lib/assets/01.svg" alt="" />
+					<img src={icon} alt="" />
 				</div>
 				<div class="p-4">
 					<h5 class="text-lg font-semibold">Deliver Exceptional Results</h5>

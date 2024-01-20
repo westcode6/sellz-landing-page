@@ -1,3 +1,7 @@
+<script>
+    let dashboard = "$lib/assets/dash2.png"
+</script>
+
 <main class="bg-wave">
 
 <section class="bg-[#04082f] bg-opacity-95 mt-10 md:mt-20 px-4 sm:px-10 lg:px-32 py-4 lg:py-8">
@@ -10,7 +14,7 @@
         </div>
 
         <div class="w-full py-16 sm:py-72  relative">
-            <img src="src/lib/assets/dash2.png" class="absolute -bottom-4 w-full object-cover object-center rounded-2xl" alt="">
+            <img src={dashboard} class="absolute -bottom-4 w-full object-cover object-center rounded-2xl" alt="">
         </div>
 </section>
 
