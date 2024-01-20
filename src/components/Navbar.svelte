@@ -85,7 +85,7 @@ import logo from "$lib/assets/sellz-logo.png"
 </nav>
 
 <div id="stickyNav" class="absolute z-10 animate__animated animate__bounceInDown hidden top-0 bg-[#04082f] w-full h-full">
-	<div class="w-full bg-[#04082] px-8 py-6 flex items-center justify-between">
+	<div class="w-full bg-[#04082] px-4 py-2 flex items-center justify-between">
         <a href="/">
             <img src={logo} class="h-6 object-contain" alt="" />
         </a>
