@@ -23,7 +23,7 @@
             </div>
         </div>
     
-        <div class="w-full lg:w-1/2 my-4 sm:mt-0">
+        <div class="w-full lg:w-1/2 my-4 sm:mt-0 animate__animated animate__backInUp ">
     <img src={heroBanner} alt="">
             <!-- <div class="w-full bg-gray-500 animate__animated animate__backInRight  h-[300px] lg:h-[500px]  rounded-xl flex items-center justify-center">
                 <span>
