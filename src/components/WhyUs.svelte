@@ -13,7 +13,7 @@
 
 	<main class="w-full my-10 sm:my-20 flex flex-col md:flex-row items-center justify-between">
 		<aside class="w-full lg:max-w-xl flex flex-col items-start">
-			<div class="w-full flex items-start shadow-sm hover:shadow-xl rounded-xl mt-4 lg:px-12">
+			<div class="w-full flex items-start border-b border-gray-200 pb-4 px-2 shadow-sm hover:shadow-xl rounded-xl mt-4 lg:px-12">
 				<div class="w-20 h-20 flex items-center justify-center">
 					<img src={icon} alt="" />
 				</div>
@@ -26,7 +26,7 @@
 				</div>
 			</div>
 
-			<div class="w-full flex items-start shadow-xl hover:shadow-xl rounded-xl mt-4 lg:px-12">
+			<div class="w-full flex items-start border-b border-gray-200 pb-4 px-2 shadow-xl hover:shadow-xl rounded-xl mt-4 lg:px-12">
 				<div class="w-20 h-20 flex items-center justify-center">
 					<img src={icon} class="" alt="" />
 				</div>
@@ -39,7 +39,7 @@
 				</div>
 			</div>
 
-			<div class="w-full flex items-start shadow-sm hover:shadow-xl rounded-xl mt-4 lg:px-12">
+			<div class="w-full flex items-start border-b border-gray-200 pb-4 px-2 shadow-sm hover:shadow-xl rounded-xl mt-4 lg:px-12">
 				<div class="w-20 h-20 flex items-center justify-center">
 					<img src={icon} alt="" />
 				</div>
@@ -51,7 +51,7 @@
 				</div>
 			</div>
 
-			<div class="w-full flex items-start mt-4 shadow-sm hover:shadow-sm rounded-xl lg:px-12">
+			<div class="w-full flex items-start border-b border-gray-200 pb-4 px-2 mt-4 shadow-sm hover:shadow-sm rounded-xl lg:px-12">
 				<div class="w-20 h-20 flex items-center justify-center">
 					<img src={icon} alt="" />
 				</div>

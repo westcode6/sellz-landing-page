@@ -5,7 +5,7 @@
 </script>
 <main class="bg-wave">
 
-<section class="bg-[#04082f] bg-opacity-95 mt-10 md:mt-20 px-8 sm:px-10 lg:px-40 py-4 lg:py-20">
+<section class="bg-[#04082f] bg-opacity-90 mt-10 md:mt-20 px-8 sm:px-10 lg:px-40 py-4 lg:py-20">
 	<div class="flex items-center justify-between">
 		<h2 class="w-72 text-white text-2xl md:text-4xl font-semibold">Real Stories from Real Customers</h2>
 
@@ -36,9 +36,9 @@
 	<div class="my-10 sm:my-12">
 		<section class="flex flex-col flex-wrap lg:flex-row items-center justify-around gap-10">
             <div class="w-full mt-10 sm:max-w-[450px] shadow-xl flex flex-col gap-6 items-center justify-center">
-                <div class="bg-white shadow-xl rounded-tr-xl rounded-bl-2xl p-4 flex flex-col items-center justify-center text-center">
+                <div class="bg-white shadow-xl rounded-tr-xl rounded-bl-2xl rounded-tl-2xl p-4 flex flex-col items-center justify-center text-center">
                     <h3 class="text-lg text-[#04082f] font-bold">Incredible Experience</h3>
-                    <p class="py-4">
+                    <p class="py-4 text-sm">
                         We had an incredible experience working with Martic and were impressed they made such a
                         big difference in only three weeks. Our team is so grateful for the wonderful improvements
                         they made and their ability to get familiar with the concept so quickly.
@@ -52,16 +52,16 @@
                     />
     
                     <div class="px-2">
-                        <h5 class="text-white text-base font-bold">Jane Cooper</h5>
-                        <span class="text-gray-200 text-xs">CEO, ABC Corperation</span>
+                        <h5 class="text-white text-base font-bold">James Jeff</h5>
+                        <span class="text-gray-200 text-xs">CEO, Gogluva</span>
                     </div>
                 </div>
             </div>
 
             <div class="w-full sm:max-w-[450px] flex flex-col gap-6 items-center justify-center">
-                <div class="bg-white shadow-xl rounded-tr-xl rounded-bl-2xl p-4 flex flex-col items-center justify-center text-center">
+                <div class="bg-white shadow-xl rounded-tr-xl rounded-bl-2xl rounded-tl-2xl p-4 flex flex-col items-center justify-center text-center">
                     <h3 class="text-lg text-[#04082f] font-bold">Incredible Experience</h3>
-                    <p class="py-4">
+                    <p class="py-4 text-sm">
                         We had an incredible experience working with Martic and were impressed they made such a
                         big difference in only three weeks. Our team is so grateful for the wonderful improvements
                         they made and their ability to get familiar with the concept so quickly.
@@ -76,16 +76,16 @@
                     />
     
                     <div class="px-2">
-                        <h5 class="text-white text-base font-bold">Jane Cooper</h5>
-                        <span class="text-gray-200 text-xs">CEO, ABC Corperation</span>
+                        <h5 class="text-white text-base font-bold">Franklin Dave</h5>
+                        <span class="text-gray-200 text-xs">CEO, Sellz.co</span>
                     </div>
                 </div>
             </div>
 
             <div class="w-full sm:max-w-[450px] flex flex-col gap-6 items-center justify-center">
-                <div class="bg-white shadow-xl rounded-tr-xl rounded-bl-2xl p-4 flex flex-col items-center justify-center text-center">
+                <div class="bg-white shadow-xl rounded-tr-xl rounded-bl-2xl rounded-tl-2xl p-4 flex flex-col items-center justify-center text-center">
                     <h3 class="text-lg text-[#04082f] font-bold">Incredible Experience</h3>
-                    <p class="py-4">
+                    <p class="py-4 text-sm">
                         We had an incredible experience working with Martic and were impressed they made such a
                         big difference in only three weeks. Our team is so grateful for the wonderful improvements
                         they made and their ability to get familiar with the concept so quickly.

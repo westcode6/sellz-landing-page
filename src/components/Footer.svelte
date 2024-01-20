@@ -1,7 +1,12 @@
+<script>
+    import logo from "$lib/assets/sellz-logo.png"
+</script>
+
+
 <footer class="bg-[#04082f]  px-8 sm:px-10 lg:px-32 py-4 lg:py-8">
 	<section class="w-full mt-10 flex flex-col justify-between items-center">
         <div class="w-full">
-            <img src="/src/lib/sellz-logo.png" class="w-20 " alt="" />
+            <img src={logo} class="w-20 " alt="" />
         </div>
     
         <div class="w-full flex flex-col md:flex-row gap-10 justify-between items-start">
