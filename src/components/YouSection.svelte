@@ -2,14 +2,14 @@
     import smiles from "$lib/assets/laugh.png"
 </script>
 
-<section class="px-8 sm:px-10 lg:px-32 py-4 lg:py-8 flex flex-col items-center md:flex-row shadow-xl">
-	<div class="w-full md:w-1/2 lg:p-12">
+<section class="px-8 sm:px-10 lg:px-32 py-4 lg:py-8 flex flex-col items-center md:flex-row justify-between shadow-xl">
+	<div class="w-full lg:w-1/2 lg:p-12">
 		<img src={smiles} class="w-full h-full object-cover object-center" alt="" />
 	</div>
 
-	<div class="w-full md:w-1/2 lg:px-24 mt-6 px-4">
+	<div class="w-full sm:w-[80%] lg:w-[40%]  mt-6 px-6 lg:px-12">
 		<h1 class="text-2xl md:text-4xl text-[#04082f] font-semibold">You and Your Students</h1>
-		<p class="mt-2 md:mt-10 text-sm md:text-xl text-[#04082f] font-normal">
+		<p class="mt-2 py-4 text-sm md:text-lg text-[#04082f] font-normal">
 			Build your own online school without writing any single line of code, hiring an expert, or
 			utilizing complicated plugins. Leverage on our beautiful platform designed for you and your
 			students to grow your teaching business and build your professional school with just a few

@@ -13,8 +13,8 @@
               </span></a>
         </div>
 
-        <div class="w-full py-16 sm:py-72  relative">
-            <img src={dashboard} class="absolute -bottom-4 w-full object-cover object-center rounded-2xl" alt="">
+        <div class="w-full relative">
+            <img src={dashboard} class="w-full object-cover object-center rounded-2xl" alt="">
         </div>
 </section>
 

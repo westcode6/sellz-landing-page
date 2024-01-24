@@ -5,18 +5,20 @@
 
 </script>
 
-<main>
-    <section class="w-full bg-[#04082f] h-full lg:h-[75vh] px-6 sm:px-10 lg:px-32 py-10 lg:py-8  flex flex-col lg:flex-row items-center md:gap-20">
-        <div class="w-full lg:w-1/2">
-            <div class="w-full md:max-w-[576px] text-center lg:text-left lg:max-w-[656px]">
-                <h1 class="animate__animated animate__tada text-6xl md:text-7xl text-white font-semibold">Create Build, and Sell online Courses</h1>
-            <p class="w-full sm:w-5/6 mx-auto animate__animated animate__backInUp  lg:mx-0 sm:text-center lg:text-left py-6 md:text-xl text-gray-400">
+<main class="bg-bag">
+    <section class="w-full bg-[#04082f] bg-opacity-90 h-full lg:h-[75vh] px-6 sm:px-10 lg:px-32 py-10 lg:py-8  flex flex-col lg:flex-row items-center gap-10  lg:gap-20">
+        <div class="w-full lg:w-1/2 md:mx-auto">
+            <div class="w-[78%] md:w-[70%] lg:w-[75%] xl:w-[80%] mx-auto lg:mx-0 text-center lg:text-left  py- 10 lg:py-20">
+                <h1 class="animate__animated animate__tada text-6xl md:text-7xl text-white font-semibold">Create Build, and  Sell online Courses</h1>
+            <p class="w-full sm:w-5/6 mx-auto animate__animated animate__backInUp  lg:mx-0 sm:text-center lg:text-left py-8 md:text-xl text-gray-400">
                 Turn your expertise into an online course and connect with millions of learners around the
                 world.
             </p>
     
             <div class="w-full sm:w-fit mx-auto lg:mx-0 animate__animated animate__tada  mt-10 flex flex-col items-center">
-                <button class="w-full px-10 py-4 bg-[#FBBD23] text-white text-lg font-semibold rounded-sm">Get Started for Free</button>
+               <a href="/signup/">
+                <button class="bg-[#FBBD23] border border-amber-400 text-white text-lg font-semibold px-10  py-4 w-fit  rounded-xl shadow-2xl transform transition ease-in-out hover:-translate-x-1 flex-grow ">Get Started for Free</button>
+               </a>
     
                 <span class="py-4 capitalized underline text-gray-400 text-sm">No Credit card required</span>
             </div>
@@ -25,7 +27,7 @@
     
         <div class="w-full lg:w-1/2 my-4 sm:mt-0 animate__animated animate__backInUp ">
 
-            <div class="w-full h-[310px] sm:h-[600px]">
+            <div class="w-[95%] md:w-[78%] mx-auto lg:mr-0 h-[310px] lg:h-[450px]">
     <img src={heroBanner} class="w-full h-full rounded-xl object-cover" alt="">
 
             </div>

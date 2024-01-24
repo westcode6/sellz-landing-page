@@ -20,7 +20,7 @@
                 </ul>
             </div>
     
-            <div  class="w-52 mt120">
+            <div  class="w-52 mt-12">
                 <h4 class="text-lg sm:text-2xl text-white font-semibold">Explore</h4>
                 <ul class="mt-10">
                     <li class="py-2 text-sm text-gray-400 hover:underline"><a href="/">Pricing</a></li>
@@ -29,7 +29,7 @@
                 </ul>
             </div>
     
-            <div  class="w-52 mt120">
+            <div  class="w-52 mt-12">
                 <h4 class="text-lg sm:text-2xl text-white font-semibold">Resources</h4>
                 <ul class="mt-10">
                     <li class="py-2 text-sm text-gray-400 hover:underline"><a href="/">Documentation</a></li>
@@ -38,7 +38,7 @@
                 </ul>
             </div>
     
-            <div  class="w-52 mt120">
+            <div  class="w-52 mt-12">
                 <h4 class="text-lg sm:text-2xl text-white font-semibold">Legal</h4>
                 <ul class="mt-10">
                     <li class="py-2 text-sm text-gray-400 hover:underline"><a href="/">Privacy Policy</a></li>

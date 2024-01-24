@@ -2,7 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    font-size: 15px !important;
+}
 
+
+
+.bg-bag {
+    background-image: url(/src/lib/assets/continental.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+}
 .bg-wave {
     background-image: url(/src/lib/assets/wave-abs.jpg);
     background-repeat: no-repeat;
@@ -23,6 +35,10 @@
     background-image: url(/src/lib/assets/wave3.jpg);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
-    
+    background-size: cover;   
+}
+
+/* cusroms */
+.custom-shadow {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
