@@ -39,9 +39,9 @@
 		<aside class="w-full lg:max-w-xl  flex flex-wrap items-center justify-start">
 			{#each whychooseus as why}
 				<div
-					class="w-[95%] md:w-[50%] flex items-start border-b border-gray-200 pb-4 px-2 mt-4 shadow-sm hover:shadow-sm rounded-xl lg:px-12"
+					class="w-[95%] md:w-[80%] flex items-center border-b border-gray-200 pb-4 px-2 mt-4 shadow-sm hover:shadow-sm rounded-xl lg:px-12"
 				>
-					<div class="w-20 h-20 flex items-center justify-center">
+					<div class="w-20 h-20 flex items-start justify-center">
 						<img src={icon} alt="" />
 					</div>
 					<div class="px-6 lg:px-2 py-2">
@@ -57,7 +57,7 @@
 		<div class="w-[90%] md:w-[50%] mt-20 relative">
 			<img
 				src={dashboard}
-				class="rounded-xl shadow-lg right-0 w-full object-cover object-center"
+				class="rounded-xl shadow-lg  w-full object-cover object-center"
 				alt="dashboard view"
 			/>
 		</div>
