@@ -24,7 +24,7 @@
 	];
 </script>
 
-<section class="py-10 lg:py-24 px-8">
+<section class="p-12 w-full max-w-7xl mx-auto">
 	<div class=" animate__animated animate__bounceInLeft text-center">
 		<h2 class="text-2xl md:text-4xl font-semibold text-[#04082f]">
 			Bring your Content and <br /> Community Together!
@@ -37,10 +37,10 @@
 			<div
 				class="w-52 bg-white rounded-xl animate__animated animate__tada flex flex-col items-center justify-center gap-6 px-4 py-3"
 			>
-				<div class="w-28 h-28 rounded-full mx-auto overflow-hidden">
+				<div class="w-36 h-36 rounded-full mx-auto overflow-hidden">
 					<img
 						src={content.banner}
-						class="w-full h-full object-cover object-center rounded-full custom-shadow border-4"
+						class="w-full h-full object-cover object-center rounded-full custom-shadow "
 						alt=""
 					/>
 				</div>

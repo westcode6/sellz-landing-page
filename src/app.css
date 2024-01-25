@@ -1,15 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Montserrat:wght@300;400;500&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
 
 html {
     font-size: 15px !important;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat', sans-serif;
+
+}
+p, span, a, label {
+    font-family: 'Assistant', sans-serif
+
+}
 
 
 .bg-bag {
-    background-image: url(/src/lib/assets/continental.png);
+    background-image: url(/src/lib/assets/pro.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -31,8 +49,8 @@ html {
     
 }
 
-.bg-wave3 {
-    background-image: url(/src/lib/assets/wave3.jpg);
+.bg-continent {
+    background-image: url(/src/lib/assets/continental.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;   
@@ -40,5 +58,5 @@ html {
 
 /* cusroms */
 .custom-shadow {
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }

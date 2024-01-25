@@ -17,8 +17,10 @@
 </script>
 
 
-<Navbar />
+<div class="relative bg-bag">
+	<Navbar />
 <Hero />
+</div>
 <Achieves />
 <BringContent />
 <YouSection />

@@ -32,10 +32,10 @@
 	];
 </script>
 
-<main class="bg-bag">
-	<section class="bg-[#04082f] bg-opacity-90 mt-10 md:mt-20 px-8 sm:px-10 lg:px-40 py-4 lg:py-20">
+<main class="bg-[#04082f]">
+	<section class="bg-[#04082f] bg-opacity-90 px-12 sm:px-6  py-12 w-full max-w-7xl mx-auto">
 		<div class="flex items-center justify-between">
-			<h2 class="w-72 text-white text-2xl md:text-4xl font-semibold">
+			<h2 class="w-96 text-white text-2xl md:text-4xl font-semibold">
 				Real Stories from Real Customers
 			</h2>
 
@@ -64,13 +64,13 @@
 		</div>
 
 		<div class="my-10 sm:my-12">
-			<section class="flex flex-wrap  items-center justify-around gap-2 md:gap-10">
-				{#each feedback as feed}
+			<section class="flex flex-wrap  items-center justify-around gap-10 ">
+				{#each feedback as feed, index}
 					<div
-						class="w-full mt-10 sm:w-[350px] custom-shadow  gap-4 flex flex-col items-center justify-center"
+						class={`${index == 0 || index == 2 ? "w-full mt-10 blur-sm custom-shadow  gap-4 flex flex-col items-center justify-center" : "w-full mt-10 custom-shadow  gap-4 flex flex-col items-center justify-center"} max-w-sm`}
 					>
 						<div
-							class="bg-white custom-shadow rounded-tr-xl rounded-bl-2xl rounded-tl-none p-4 flex flex-col items-center justify-center text-center"
+							class="bg-white custom-shadow rounded-tr-xl rounded-2xl  p-4 flex flex-col items-center justify-center text-center"
 						>
 							<h3 class="text-lg text-[#04082f] font-bold">{feed.caption}</h3>
 							<p class="py-4 text-sm">

@@ -19,16 +19,16 @@
 	];
 </script>
 
-<section class="bg-gray-50 shadow-sm px-8">
+<section class="bg-blue-50 shadow-sm p-12">
 	<div
-		class="w-full md:max-w-7xl mx-auto flex flex-wrap items-center justify-center lg:justify-between py-10 gap-10"
+		class="w-full md:max-w-7xl mx-auto flex flex-wrap items-center justify-center lg:justify-around py-10 gap-10"
 	>
 		{#each achievments as achieved}
 			<div
-				class="w-[200px] bg-white custom-shadow transition transform hover:-translate-x-0.5 flex flex-col items-center justify-center rounded-lg px-6 py-3"
+				class="w-[200px] bg-white shadow transition transform hover:-translate-x-0.5 flex flex-col items-center justify-center rounded-lg px-6 py-3"
 			>
 				<h3 class="text-2xl font-bold">{achieved.count}</h3>
-				<p class="text-[#04082f] font-normal mt-4">{achieved.desc}</p>
+				<p class="text-[#04082f] font-normal mt-2">{achieved.desc}</p>
 			</div>
 		{/each}
 	</div>

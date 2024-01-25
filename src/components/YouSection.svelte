@@ -2,12 +2,12 @@
     import smiles from "$lib/assets/laugh.png"
 </script>
 
-<section class="px-8 sm:px-10 lg:px-32 py-4 lg:py-8 flex flex-col items-center md:flex-row justify-between shadow-xl">
-	<div class="w-full lg:w-1/2 lg:p-12">
+<section class="w-full py-12 max-w-7xl mx-auto flex flex-col items-center md:flex-row justify-between">
+	<div class="w-full max-w-xl">
 		<img src={smiles} class="w-full h-full object-cover object-center" alt="" />
 	</div>
 
-	<div class="w-full sm:w-[80%] lg:w-[40%]  mt-6 px-6 lg:px-12">
+	<div class="w-full max-w-xl  mt-6 px-6 lg:px-12">
 		<h1 class="text-2xl md:text-4xl text-[#04082f] font-semibold">You and Your Students</h1>
 		<p class="mt-2 py-4 text-sm md:text-lg text-[#04082f] font-normal">
 			Build your own online school without writing any single line of code, hiring an expert, or
