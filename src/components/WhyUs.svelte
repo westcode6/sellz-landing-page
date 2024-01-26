@@ -30,7 +30,7 @@
 	];
 </script>
 
-<section class="mt-10 md:mt-20 p-12 w-full max-w-7xl mx-auto ">
+<section class="mt-10 md:mt-20 p-6 md:p-12 w-full max-w-7xl mx-auto ">
 	<div class="w-full sm:max-w-lg mx-auto text-center">
 		<h2 class="text-2xl md:text-4xl font-semibold text-[#04082f]">Why Choose Sellz ?</h2>
 	</div>
@@ -39,12 +39,12 @@
 		<aside class="w-full lg:max-w-xl  flex flex-wrap items-center justify-start">
 			{#each whychooseus as why}
 				<div
-					class="w-[95%] md:w-[90%] flex items-center border-b border-gray-200 pb-4 px-2 mt-4 shadow-sm hover:shadow-sm rounded-xl lg:px-12"
+					class="w-full md:w-[90%] flex items-center border-b border-gray-200 pb-4  mt-4 shadow-sm hover:shadow-sm rounded-xl lg:px-12"
 				>
 					<div class="w-20 h-20 flex items-start justify-center">
 						<img src={icon} alt="" />
 					</div>
-					<div class="px-6 lg:px-2 py-2">
+					<div class="px-2 lg:px-2 py-2">
 						<h5 class="text-lg font-semibold">{why.title}</h5>
 						<p class="w-full sm:max-w-xs mt-2">
 							{why.desc}
@@ -54,7 +54,7 @@
 			{/each}
 		</aside>
 
-		<div class="w-[90%] md:w-[50%] mt-20 ">
+		<div class="w-full md:w-[50%] mt-20 ">
 			<img
 				src={dashboard}
 				class="rounded-xl shadow-lg  object-cover object-center"

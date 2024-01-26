@@ -25,7 +25,7 @@
 </script>
 <section class="p-12">
 	
-<div class="p-12 w-full max-w-7xl mx-auto">
+<div class="py-12 w-full max-w-7xl mx-auto">
 	<div class=" animate__animated animate__bounceInLeft text-center">
 		<h2 class="text-2xl md:text-4xl font-semibold text-[#04082f]">
 			Bring your Content and <br /> Community Together!
@@ -36,7 +36,7 @@
 	>
 		{#each contents as content}
 			<div
-				class="w-52 bg-white rounded-xl animate__animated animate__tada flex flex-col items-center justify-center gap-6 px-4 py-3"
+				class="w-72 bg-white rounded-xl animate__animated animate__tada flex flex-col items-center justify-center gap-6 px-4 py-3"
 			>
 				<div class="w-32 h-32 rounded-full mx-auto overflow-hidden">
 					<img

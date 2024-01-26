@@ -54,21 +54,32 @@
 <div class="w-full  max-w-7xl mx-auto">
     <div class="flex flex-col md:flex-row justify-between">
        <div class="md:w-1/2 max-w-lg mx-auto flex flex-col justify-center">
-          <div class="md:text-5xl text-5xl text-white capitalize font-black">Create Build, and  Sell online Courses</div>
+          <div class="md:text-5xl text-6xl text-white capitalize font-black">Create Build, and  Sell online Courses</div>
           <div class="text-base md:text-xl mt-6 text-gray-400">    Turn your expertise into an online course and connect with millions of learners around the
             world.</div>
           <div class="my-10 h-16 ">
-             <div class="shadow-md font-medium py-3 px-4 text-yellow-100
-                cursor-pointer bg-yellow-500 hover:bg-yellow-500 rounded text-lg text-center w-72">Get Started for Free</div>
+             <button class="shadow-md font-medium py-3 px-4 text-yellow-100
+                cursor-pointer bg-yellow-500 hover:bg-yellow-500 rounded text-lg text-center w-full md:w-72"><a href="/signup">Get Started for Free</a></button>
+                <span class="py-4 capitalized underline text-gray-400 text-sm">No Credit card required</span>
           </div>
        </div>
-       <div  class="w-full hidden  md:w-1/2 mx-auto md:flex items-center justify-center lg:justify-end">
-          <div class="">
+       <div  class="w-full   md:w-1/2 mx-auto md:flex items-center justify-center lg:justify-end">
+          <div class="hidden">
              <div class="w-full shadow-2xl max-w-lg mx-auto z-10 rounded-full bg-[#04082f] bg-opacity-65 p-4 mt-6 md:mt-0 mr-4 lg:ml-4">
                 <img alt="card img" class="object-cover object-center  " src={heroBanner}> 
                 <!-- <div class="text-2xl p-10 bg-white"><img alt="quote" class="float-left mr-1" src="https://assets-global.website-files.com/5b5a66e9f3166b36708705fa/5cf8fb1f994fb7168d0d66fb_quote-intro.svg"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</div> -->
              </div>
           </div>
+
+          <div class="w-full bg-gray-500 animate__animated animate__backInRight  h-[300px] lg:h-[500px]  rounded-xl flex items-center justify-center">
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.91 11.672a.375.375 0 0 1 0 .656l-5.603 3.113a.375.375 0 0 1-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112Z" />
+                  </svg>
+                     
+            </span>
+        </div>
        </div>
     </div>
  </div>

@@ -36,7 +36,7 @@
 <section class="w-full bg-[#04082F] bg-opacity-90 ">
 	
 <nav
-class="w-full max-w-7xl  mx-auto px-12  py-10 flex items-center justify-between"
+class="w-full max-w-7xl  mx-auto px-6 md:px-12  py-10 flex items-center justify-between"
 >
 <div class="w-full md:w-3/6 flex items-center justify-between">
 	<ul class="hidden md:flex space-x-10">
