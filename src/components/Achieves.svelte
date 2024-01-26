@@ -19,7 +19,7 @@
 	];
 </script>
 
-<section class="bg-blue-50 shadow-sm p-12">
+<section class="bg-blue-50 shadow-sm px-12 py-4">
 	<div
 		class="w-full md:max-w-7xl mx-auto flex flex-wrap items-center justify-center lg:justify-around py-10 gap-10"
 	>
