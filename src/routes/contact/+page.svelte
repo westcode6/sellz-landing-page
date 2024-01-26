@@ -54,7 +54,7 @@
 </section>
 
 <!-- General Communication  -->
-<section class="p-12">
+<section class="p-6 md:p-12">
     
 <div 
 class="p-12 w-full max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between"
@@ -81,8 +81,8 @@ class="p-12 w-full max-w-7xl mx-auto flex flex-col sm:flex-row items-center just
 
 
 <!-- Need a quick response -->
-<section class="p-12 bg-[#04082f]">
-    <div class="p-12 w-full max-w-7xl mx-auto flex flex-col sm:flex-row  justify-between items-center ">
+<section class="p-6 md:p-12 bg-[#04082f]">
+    <div class="w-full max-w-7xl mx-auto flex flex-col sm:flex-row  justify-between items-center ">
         <div class="w-full max-w-lg">
                 <img src={smiles} class="w-full object-center object-cover" alt="smiles">
         </div>
@@ -125,7 +125,7 @@ class="p-12 w-full max-w-7xl mx-auto flex flex-col sm:flex-row items-center just
 
 <!-- Ready to Share your knowledge -->
 
-<section class="p-12">
+<section class="px-6 md:p-12">
     <Share />
 </section>
 

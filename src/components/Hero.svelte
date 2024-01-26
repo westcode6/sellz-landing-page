@@ -48,7 +48,7 @@
 </main>
 
 
-<section class="w-full bg-[#04082f] bg-opacity-90 p-12">
+<section class="w-full bg-[#04082f] bg-opacity-90 p-6 md:p-12">
     
 
 <div class="w-full  max-w-7xl mx-auto">
@@ -62,7 +62,7 @@
                 cursor-pointer bg-yellow-500 hover:bg-yellow-500 rounded text-lg text-center w-72">Get Started for Free</div>
           </div>
        </div>
-       <div  class="w-full md:w-1/2 mx-auto flex items-center justify-center lg:justify-end">
+       <div  class="w-full hidden  md:w-1/2 mx-auto md:flex items-center justify-center lg:justify-end">
           <div class="">
              <div class="w-full shadow-2xl max-w-lg mx-auto z-10 rounded-full bg-[#04082f] bg-opacity-65 p-4 mt-6 md:mt-0 mr-4 lg:ml-4">
                 <img alt="card img" class="object-cover object-center  " src={heroBanner}> 
