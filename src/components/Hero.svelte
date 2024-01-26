@@ -71,7 +71,7 @@
              </div>
           </div>
 
-          <div class="w-full bg-gray-500 animate__animated animate__backInRight  h-[300px] lg:h-[500px]  rounded-xl flex items-center justify-center">
+          <div class="w-full bg-gray-500 animate__animated animate__backInUp  h-[300px] lg:h-[500px]  rounded-xl flex items-center justify-center">
             <span>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
