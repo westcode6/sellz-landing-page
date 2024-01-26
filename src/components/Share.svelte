@@ -3,7 +3,7 @@
 </script>
 <section class="w-full sm:max-w-7xl mx-auto px-8 sm:px-10 lg:px-20 py-4 lg:py-8">
     
-<div class="bg-[#FFEEE5] rounded-2xl p-12 flex flex-col items-center md:flex-row justify-between shadow-xl">
+<div class="bg-orange-100 rounded-2xl p-12 flex flex-col items-center md:flex-row justify-between gap-10 shadow-xl">
 	
 
 	<div class="w-full  mt-6">
@@ -13,8 +13,8 @@
      
 	</div>
 
-    <div class="w-full px-10 flex items-center justify-end">
-        <a href="/" class="w-fit  px-4 py-3 bg-orange-500 text-orange-100 font-semibold hover:underline transform transition hover:-translate-x-1 flex gap-4">Talk To Support </a>
+    <div class="w-full  flex ">
+        <a href="/" class="w-full  px-4 py-3 bg-orange-400 text-orange-100 text-center font-semibold hover:underline transform transition hover:-translate-x-1 flex items-center justify-center gap-4">Talk To Support </a>
 	</div>
 </div>
 

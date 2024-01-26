@@ -33,50 +33,52 @@
 		}
 	];
 </script>
-
+<section class="w-full bg-[#04082F] bg-opacity-90 ">
+	
 <nav
-	class="w-full  mx-auto bg-[#04082F] bg-opacity-90 px-4 sm:px-10 xl:px-12 py-4 lg:py-8 flex items-center justify-between"
+class="w-full max-w-7xl  mx-auto py-10 flex items-center justify-between"
 >
-	<div class="w-full md:w-3/6 flex items-center justify-between">
-		<ul class="hidden md:flex space-x-10">
-			{#each navLinks as navLink}
-				<li
-					class="w-fit rounded-full shadow-2xl transform transition ease-in-out hover:-translate-y-1 flex-grow text-gray-400 hover:text-gray-500"
-				>
-					<a href={navLink.to}>{navLink.title}</a>
-				</li>
-			{/each}
-		</ul>
-		<div class="w-full flex items-center justify-between md:justify-end">
-			<a href="/">
-				<img src={logo} class="h-6 object-contain" alt="" />
-			</a>
+<div class="w-full md:w-3/6 flex items-center justify-between">
+	<ul class="hidden md:flex space-x-10">
+		{#each navLinks as navLink}
+			<li
+				class="w-fit rounded-full shadow-2xl transform transition ease-in-out hover:-translate-y-1 flex-grow text-gray-400 hover:text-gray-500"
+			>
+				<a href={navLink.to}>{navLink.title}</a>
+			</li>
+		{/each}
+	</ul>
+	<div class="w-full flex items-center justify-between md:justify-end">
+		<a href="/">
+			<img src={logo} class="h-6 object-contain" alt="" />
+		</a>
 
-			<button on:click={showNav} class="block md:hidden">
-				<svg
-					xmlns="http://www.w3.org/2000/svg"
-					fill="#fff"
-					viewBox="0 0 24 24"
-					stroke-width="1.5"
-					stroke="currentColor"
-					class="w-7 h-7 text-white"
-				>
-					<path
-						stroke-linecap="round"
-						stroke-linejoin="round"
-						d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-					/>
-				</svg>
-			</button>
-		</div>
+		<button on:click={showNav} class="block md:hidden">
+			<svg
+				xmlns="http://www.w3.org/2000/svg"
+				fill="#fff"
+				viewBox="0 0 24 24"
+				stroke-width="1.5"
+				stroke="currentColor"
+				class="w-7 h-7 text-white"
+			>
+				<path
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+				/>
+			</svg>
+		</button>
 	</div>
-	<div class="w-auto hidden md:flex items-center">
-		<div class="w-full text-gray-300 flex items-center justify-around gap-10 lg:gap-20">
-			<button class="w-fit bg-[#04082f] rounded-full shadow-2xl transform transition ease-in-out hover:-translate-y-1 flex-grow text-gray-400 hover:text-gray-500">Sign In</button>
-			<button class="border border-amber-400 text-amber-400 px-6 py-4 w-fit bg-[#04082f] rounded shadow-2xl transform transition ease-in-out hover:-translate-y-1 flex-grow ">Sign Up for Free</button>
-		</div>
+</div>
+<div class="w-auto hidden md:flex items-center">
+	<div class="w-full text-gray-300 flex items-center justify-around gap-10 lg:gap-20">
+		<button class="w-fit bg-[#04082f] rounded-full shadow-2xl transform transition ease-in-out hover:-translate-y-1 flex-grow text-gray-400 hover:text-gray-500">Sign In</button>
+		<button class="border border-amber-400 text-amber-400 px-6 py-4 w-fit bg-[#04082f] rounded shadow-2xl transform transition ease-in-out hover:-translate-y-1 flex-grow ">Sign Up for Free</button>
 	</div>
+</div>
 </nav>
+</section>
 
 <div
 	id="stickyNav"

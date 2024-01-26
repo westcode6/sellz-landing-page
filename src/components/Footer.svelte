@@ -16,7 +16,7 @@
                 <ul class="mt-10">
                     <li class="py-2 text-sm text-gray-400 hover:underline"><a href="/">About</a></li>
                     <li class="py-2 text-sm text-gray-400 hover:underline"><a href="/">Blog</a></li>
-                    <li class="py-2 text-sm text-gray-400 hover:underline"><a href="/">Contact</a></li>
+                    <li class="py-2 text-sm text-gray-400 hover:underline"><a href="/contact">Contact</a></li>
                 </ul>
             </div>
     
