@@ -32,8 +32,8 @@
 	];
 </script>
 
-<main class="bg-[#04082f]">
-	<section class="bg-[#04082f] bg-opacity-90 px-12 sm:px-6  py-12 w-full max-w-7xl mx-auto">
+<main class="bg-[#04082f] p-12">
+	<section class="bg-[#04082f] bg-opacity-90  sm:px-6  w-full max-w-7xl mx-auto">
 		<div class="flex items-center justify-between">
 			<h2 class="w-96 text-white text-2xl md:text-4xl font-semibold">
 				Real Stories from Real Customers

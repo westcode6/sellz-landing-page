@@ -23,8 +23,9 @@
 		}
 	];
 </script>
-
-<section class="p-12 w-full max-w-7xl mx-auto">
+<section class="p-12">
+	
+<div class="p-12 w-full max-w-7xl mx-auto">
 	<div class=" animate__animated animate__bounceInLeft text-center">
 		<h2 class="text-2xl md:text-4xl font-semibold text-[#04082f]">
 			Bring your Content and <br /> Community Together!
@@ -37,7 +38,7 @@
 			<div
 				class="w-52 bg-white rounded-xl animate__animated animate__tada flex flex-col items-center justify-center gap-6 px-4 py-3"
 			>
-				<div class="w-36 h-36 rounded-full mx-auto overflow-hidden">
+				<div class="w-32 h-32 rounded-full mx-auto overflow-hidden">
 					<img
 						src={content.banner}
 						class="w-full h-full object-cover object-center rounded-full custom-shadow "
@@ -49,10 +50,12 @@
 		{/each}
 	</div>
 
-	<div class="w-full flex items-center justify-center mt-2 md:mt-10">
+	<div class="w-full flex items-center justify-center mt-2 md:mt-20">
 		<button
 			class="w-fit px-10 py-4 animate__animated animate__bounceInUp animate__delay-2s bg-[#FBBD23] text-white text-lg font-semibold rounded-sm"
 			>Get Started for Free</button
 		>
 	</div>
+</div>
+
 </section>

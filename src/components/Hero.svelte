@@ -51,9 +51,9 @@
 <section class="w-full bg-[#04082f] bg-opacity-90 p-12">
     
 
-<div class="m-auto max-w-7xl ">
+<div class="w-full  max-w-7xl mx-auto">
     <div class="flex flex-col md:flex-row justify-between">
-       <div class="md:w-1/2 max-w-lg flex flex-col justify-center">
+       <div class="md:w-1/2 max-w-lg mx-auto flex flex-col justify-center">
           <div class="md:text-5xl text-5xl text-white capitalize font-black">Create Build, and  Sell online Courses</div>
           <div class="text-base md:text-xl mt-6 text-gray-400">    Turn your expertise into an online course and connect with millions of learners around the
             world.</div>
@@ -62,9 +62,9 @@
                 cursor-pointer bg-yellow-500 hover:bg-yellow-500 rounded text-lg text-center w-72">Get Started for Free</div>
           </div>
        </div>
-       <div class="flex md:justify-end w-full md:w-1/2">
+       <div  class="w-full md:w-1/2 mx-auto flex items-center justify-center lg:justify-end">
           <div class="">
-             <div class="shadow-2xl max-w-lg z-10 rounded-full  mt-6 mr-4 lg:ml-4">
+             <div class="w-full shadow-2xl max-w-lg mx-auto z-10 rounded-full bg-[#04082f] bg-opacity-65 p-4 mt-6 md:mt-0 mr-4 lg:ml-4">
                 <img alt="card img" class="object-cover object-center  " src={heroBanner}> 
                 <!-- <div class="text-2xl p-10 bg-white"><img alt="quote" class="float-left mr-1" src="https://assets-global.website-files.com/5b5a66e9f3166b36708705fa/5cf8fb1f994fb7168d0d66fb_quote-intro.svg"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</div> -->
              </div>
