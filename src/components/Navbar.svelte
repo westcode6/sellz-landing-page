@@ -28,7 +28,7 @@
 			title: 'Pricing'
 		},
 		{
-			to: 'resources',
+			to: '/documentation',
 			title: 'Resources'
 		}
 	];
@@ -115,20 +115,20 @@ class="w-full max-w-7xl  mx-auto px-6 md:px-12  py-10 flex items-center justify-
 			<li
 				class="w-32 bg-[#04082f] rounded-full shadow-2xl transform transition ease-in-out hover:-translate-y-1 flex-grow text-white"
 			>
-				<a href="/product">Features</a>
+				<a href="/features">Features</a>
 			</li>
 			<li
 				class="w-32 bg-[#04082f] rounded-full shadow-2xl transform transition ease-in-out hover:-translate-y-1 flex-grow text-white"
 			>
 				<a href="/product">Pricing</a>
 			</li>
-			<li class=" flex-grow text-white flex items-center"><a href="/product">Resourses</a></li>
+			<li class=" flex-grow text-white flex items-center"><a href="/documentation">Resourses</a></li>
 		</ul>
 
 		<div class="w-full text-white flex flex-col mt-10 items-center justify-between">
-			<button>Sign In</button>
+			<button><a href="/signin">Sign In</a></button>
 			<button class="mt-10 border border-amber-600 text-amber-600 px-6 py-2"
-				>Sign Up for Free</button
+				><a href="/signup">Sign Up for Free</a></button
 			>
 		</div>
 	</div>

@@ -10,8 +10,8 @@
 </script>
 
 <Navbar />
-<section class="bg-blue-100 p-12">
-	<div class="p-12 w-full max-w-xl mx-auto">
+<section class="bg-blue-100 p-6 md:p-12">
+	<div class="p-6 md:p-12 w-full max-w-xl mx-auto">
 		<div class="flex flex-col items-center justify-center">
 			<h1 class="text-2xl md:text-4xl font-bold text-[#04082f]">How can we help?</h1>
 			<p class="text-base sm:text-xl mt-4">Sellz Documentation</p>
@@ -30,13 +30,13 @@
 	</div>
 </section>
 
-<section class="p-12">
+<section class="p-6 md:p-12">
 	<h1 class="text-2xl md:text-4xl font-medium text-gray-400 text-center">
 		Explore the Documentation
 	</h1>
 
 	<!-- Contact Support and Contact Sales -->
-	<div class="p-12">
+	<div class="">
 		<div
 			class="p-12 w-full max-w-7xl mx-auto flex flex-col sm:flex-row items-start justify-between gap-10"
 		>

@@ -50,12 +50,12 @@
 
 
 
-<section class="px-8 sm:px-10 lg:px-32 py-4 lg:py-10">
+<section class="w-full p-6 md:p-12">
 	
-    <div class=" animate__animated animate__bounceInLeft text-center">
+    <div class=" animate__animated animate__bounceInLeft text-center pt-10">
 		<h2 class="text-2xl md:text-4xl font-bold text-[#04082f]">Features</h2>
 	</div>
-	<main class="bg-gray-50 py-24 mt-6  rounded-2xl flex flex-wrap justify-around gap-5 md:gap-10">
+	<main class="w-full max-w-7xl mx-auto bg-gray-50 py-10 md:py-24 mt-6  rounded-2xl flex flex-wrap justify-around gap-5 md:gap-10">
 		
 
 

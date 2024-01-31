@@ -7,14 +7,14 @@
 
 </script>
 
-<section class="mt-10 md:mt-20 px-2 sm:px-10 lg:px-32 py-4 lg:py-8 relative">
+<section class="mt-0 md:mt-0 px-2 sm:px-10 lg:px-32 py-4 lg:py-8 relative">
 	<div class="w-full sm:max-w-lg mx-auto text-center">
 		<h2 class="text-2xl md:text-4xl font-bold text-[#04082f]">
             How It Works?
 		</h2>
 	</div>
 
-	<main class="w-full my-10 sm:my-20 flex flex-col lg:flex-row items-center lg:justify-between relative">
+	<main class="w-full max-w-7xl mx-auto my-10 sm:mt-20 flex flex-col lg:flex-row items-center lg:justify-between relative">
 		<aside class="w-full lg:max-w-2xl pb-40 px-4 md:px-8 flex flex-col items-start">
 			<div class="w-full flex items-start border-b border-gray-200 pb-4 px-2 shadow-sm hover:shadow-xl rounded-xl mt-4 lg:px-12">
 				<div class="w-20 h-20 flex items-center justify-center">
@@ -73,7 +73,7 @@
 		<div class="">
 			<img
 			src={dashboard}
-			class="rounded-xl w-[70%] md:w-[60%] absolute right-0 bottom-0 lg:top-10  object-cover object-center"
+			class="rounded-xl w-[90%] md:w-[50%] absolute right-0 bottom-0 lg:top-10  object-cover object-center"
 			alt="dashboard view"
 		/>
 		</div>
