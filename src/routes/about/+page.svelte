@@ -90,7 +90,7 @@
 
 <!-- THE PROBLEM -->
 <section class="p-6 md:p-12">
-	<div class="w-full max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center">
+	<div class="w-full max-w-7xl mx-auto flex flex-col sm:flex-row justify-between gap-5 items-center">
 		<div class="w-full max-w-lg">
 			<img src={smile} class="w-full object-center object-cover" alt="smiles" />
 		</div>
@@ -104,24 +104,24 @@
 				> Create Engaging Courses, connect with Studentss
 			</h4>
 
-			<h4 class="mt-4 text-gray-500 flex items-center gap-2">
+			<h4 class="mt-4 text-sm md:text-lg text-gray-500 flex items-center gap-2">
 				<span class="w-8 h-8 rounded-full flex items-center justify-center text-gray-500 text-sm"
 					>2</span
 				> Create Engaging Courses, connect with Studentss
 			</h4>
 
-			<h4 class="mt-4 text-gray-500 flex items-center gap-2">
+			<h4 class="mt-4 text-sm md:text-lg text-gray-500 flex items-center gap-2">
 				<span class="w-8 h-8 rounded-full flex items-center justify-center text-gray-500 text-sm"
 					>3</span
 				> Create Engaging Courses, connect with Studentss
 			</h4>
 
-			<h4 class="mt-4 text-gray-500 flex items-center gap-2">
+			<h4 class="mt-4 text-sm md:text-lg text-gray-500 flex items-center gap-2">
 				<span class="w-8 h-8 rounded-full flex items-center justify-center text-gray-500 text-sm"
 					>4</span
 				> Create Engaging Courses, connect with Studentss
 			</h4>
-			<h4 class="mt-4 text-gray-500 flex items-center gap-2">
+			<h4 class="mt-4 text-sm md:text-lg text-gray-500 flex items-center gap-2">
 				<span class="w-8 h-8 rounded-full flex items-center justify-center text-gray-500 text-sm"
 					>5</span
 				> Create Engaging Courses, connect with Studentss
@@ -155,34 +155,34 @@
 
 <!-- OUR SOLUTION -->
 <section class="p-6 md:p-12">
-	<div class="w-full max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center">
+	<div class="w-full max-w-7xl mx-auto flex flex-col sm:flex-row justify-between gap-10 md:gap-5 items-center">
 		<div class="w-full max-w-lg px-4">
 			<h1 class="text-[#04082f] font-semibold text-2xl sm:text-4xl">Our Solution</h1>
-			<h4 class="mt-4 text-orange-500 font-medium flex items-center gap-2">
+			<h4 class="mt-4 text-sm md:text-lg text-orange-500 font-medium flex items-center gap-2">
 				<span
 					class="w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center text-white text-xs"
 					>1</span
 				> Create Engaging Courses, connect with Studentss
 			</h4>
 
-			<h4 class="mt-4 text-gray-500 flex items-center gap-2">
+			<h4 class="mt-4 text-sm md:text-lg text-gray-500 flex items-center gap-2">
 				<span class="w-8 h-8 rounded-full flex items-center justify-center text-gray-500 text-sm"
 					>2</span
 				> Create Engaging Courses, connect with Studentss
 			</h4>
 
-			<h4 class="mt-4 text-gray-500 flex items-center gap-2">
+			<h4 class="mt-4 text-sm md:text-lg text-gray-500 flex items-center gap-2">
 				<span class="w-8 h-8 rounded-full flex items-center justify-center text-gray-500 text-sm"
 					>3</span
 				> Create Engaging Courses, connect with Studentss
 			</h4>
 
-			<h4 class="mt-4 text-gray-500 flex items-center gap-2">
+			<h4 class="mt-4 text-sm md:text-lg text-gray-500 flex items-center gap-2">
 				<span class="w-8 h-8 rounded-full flex items-center justify-center text-gray-500 text-sm"
 					>4</span
 				> Create Engaging Courses, connect with Studentss
 			</h4>
-			<h4 class="mt-4 text-gray-500 flex items-center gap-2">
+			<h4 class="mt-4 text-sm md:text-lg text-gray-500 flex items-center gap-2">
 				<span class="w-8 h-8 rounded-full flex items-center justify-center text-gray-500 text-sm"
 					>5</span
 				> Create Engaging Courses, connect with Studentss
@@ -240,7 +240,7 @@
 
 		<section class="w-full sm:max-w-7xl mx-auto mt-10 p-2 md:p-12">
 			<div
-				class="bg-blue-100 rounded-2xl p-12 flex flex-col items-start md:items-center md:flex-row justify-between gap-10 shadow-xl"
+				class="bg-blue-100 rounded-2xl p-6 md:p-12 flex flex-col items-start md:items-center md:flex-row justify-between gap-10 shadow-xl"
 			>
 				<div class="w-full max-w-md mt-6">
 					<h3 class="text-2xl md:text-2xl text-[#04082f] font-semibold">Join other Creators</h3>
@@ -266,10 +266,10 @@
 <section
 	class="bg-orange-50 rounded-2xl p-6 md:p-12 flex flex-col items-center md:flex-row justify-between"
 >
-	<div class="w-full max-w-7xl mx-auto flex flex-col md:flex-row gap-10 md:gap-5 items-center justify-between">
-		<div class="w-full max-w-sm mt-6 px-4">
+	<div class="w-full max-w-7xl mx-auto flex flex-col md:flex-row gap-10 md:gap-5 items-center justify-around">
+		<div class="w-full max-w-60 md:max-w-sm mt-6 md:mt-0 px-4">
 			<h1 class="text-2xl md:text-4xl text-[#04082f] font-bold">Still Need Help?</h1>
-			<p class="mt-2 md:mt-2 text-sm md:text-xl text-[#04082f] font-normal">
+			<p class="mt-2 pr-10 md:mt-2 text-sm md:text-xl text-[#04082f] font-normal">
 				Please reach out to our customer care team and we’ll assist you.
 			</p>
 
@@ -305,7 +305,7 @@
 
 <section class="w-full sm:max-w-7xl mx-auto mt-10 p-6 md:p-12">
 	<div
-		class="bg-blue-100 rounded-2xl p-12 flex flex-col items-start md:items-center md:flex-row justify-between gap-10"
+		class="bg-blue-100 rounded-2xl p-6 md:p-12 flex flex-col items-start md:items-center md:flex-row justify-between gap-10"
 	>
 		<div class="w-full max-w-2xl mt-6">
 			<h3 class="text-2xl md:text-2xl text-[#04082f] font-semibold">

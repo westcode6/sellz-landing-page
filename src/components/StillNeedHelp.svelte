@@ -2,7 +2,7 @@
     import smiles from "$lib/assets/laugh.png"
 </script>
 
-<section class="bg-[#E7EAFD] rounded-2xl p-6 md:p-12 flex flex-col items-center md:flex-row justify-between shadow-xl">
+<section class="bg-[#E7EAFD] rounded-b-3xl p-6 md:p-12 flex flex-col items-center md:flex-row justify-between">
 	
 <div class="w-full max-w-7xl mx-auto flex flex-col md:flex-row gap-10 md:gap-0 items-center justify-between">
     

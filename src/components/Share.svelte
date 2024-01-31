@@ -3,7 +3,7 @@
 </script>
 <section class="w-full sm:max-w-7xl mx-auto px-8 sm:px-10 lg:px-20 py-4 lg:py-8">
     
-<div class="bg-orange-100 rounded-2xl p-12 flex flex-col items-center md:flex-row justify-between gap-10 shadow-xl">
+<div class="bg-orange-100 rounded-2xl p-12 flex flex-col items-center md:flex-row justify-between gap-10">
 	
 
 	<div class="w-full  mt-6">

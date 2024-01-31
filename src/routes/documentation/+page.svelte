@@ -38,7 +38,7 @@
 	<!-- Contact Support and Contact Sales -->
 	<div class="">
 		<div
-			class="p-12 w-full max-w-7xl mx-auto flex flex-col sm:flex-row items-start justify-between gap-10"
+			class="p-6 md:p-12 w-full max-w-7xl mx-auto flex flex-col sm:flex-row items-start justify-between gap-10"
 		>
 			<div
 				class="w-full max-w-sm flex flex-col items-center justify-center text-center border-t-2 bg-orange-50 border-orange-400 py-10 px-10"
@@ -85,14 +85,14 @@
 
 <!-- Cant find what you're looking for? -->
 
-<section class="w-full max-w-7xl mx-auto rounded-2xl p-12 flex flex-col items-center md:flex-row justify-between">
+<section class="w-full max-w-7xl mx-auto rounded-2xl p-12 flex flex-col items-center md:flex-row gap-10 justify-between">
 	
     <div class="w-full md:w-1/2 lg:p-12">
 		<img src={smiles} class="w-full h-full object-cover object-center" alt="" />
 	</div>
 
 
-	<div class="w-full md:w-1/2 lg:px-24 mt-6 px-4">
+	<div class="w-full md:w-1/2 lg:px-24 mt-6 md:mt-0 px-4">
 		<h1 class="text-2xl md:text-4xl text-[#04082f] font-bold">Can't find what you're looking for?</h1>
 		<p class="mt-2 md:mt-2 text-sm md:text-xl text-[#04082f] font-normal">
             Please reach out to our customer
