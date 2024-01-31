@@ -19,8 +19,8 @@
 </section>
 
 <!-- Contact Support and Contact Sales -->
-<section class="p-12">
-	<div class="p-12 w-full max-w-7xl mx-auto flex flex-col sm:flex-row items-start justify-between gap-10">
+<section class="p-6 md:p-12">
+	<div class="p-6 md:p-12 w-full max-w-7xl mx-auto flex flex-col sm:flex-row items-start justify-between gap-10">
 		<div
 			class="w-full max-w-sm flex flex-col items-center justify-center text-center border-t-2 bg-orange-50 border-orange-400 py-10 px-10"
 		>
@@ -82,7 +82,7 @@ class="p-12 w-full max-w-7xl mx-auto flex flex-col sm:flex-row items-center just
 
 <!-- Need a quick response -->
 <section class="p-6 md:p-12 bg-[#04082f]">
-    <div class="w-full max-w-7xl mx-auto flex flex-col sm:flex-row  justify-between items-center ">
+    <div class="w-full max-w-7xl mx-auto flex flex-col sm:flex-row gap-10 md:gap-5 justify-between items-center ">
         <div class="w-full max-w-lg">
                 <img src={smiles} class="w-full object-center object-cover" alt="smiles">
         </div>
