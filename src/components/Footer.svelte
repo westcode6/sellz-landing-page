@@ -24,7 +24,7 @@
 				<ul class="mt-10">
 					<li class="py-2 text-sm text-gray-400 hover:underline"><a href="/">Pricing</a></li>
 					<li class="py-2 text-sm text-gray-400 hover:underline"><a href="/">FAQs</a></li>
-					<li class="py-2 text-sm text-gray-400 hover:underline"><a href="/">Features</a></li>
+					<li class="py-2 text-sm text-gray-400 hover:underline"><a href="/features">Features</a></li>
 				</ul>
 			</div>
 
